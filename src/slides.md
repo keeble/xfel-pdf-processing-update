@@ -15,18 +15,14 @@ style: |
   }
   p {
     font-size: 1.5rem;
+    font-weight: 200;
     }
   li {
     font-size: 1.5rem;
+    font-weight: 200;
     color: var(--text);
   }
 ---
-<style scoped>
-p {
-   font-weight: 200;
-}
-</style>
-
 # EuXFEL Processing Update
 ![bg opacity](../assets/gradient.jpeg)
 Dean Keeble
@@ -108,13 +104,11 @@ The exact detector geometry is yet to be finalised, but processing should be pre
 
 ---
 - Some simple linear fitting gives the best match to the original data
+- For certain applications filling a high-Q gap may not be necessary
 ![bg right w:700](../assets/fitted.png)
-
----
-- Can also attempt to optimise gap placement relative to expected sample features
-![bg right w:700](../assets/ft_of_gap.png)
 
 ---
 ## Summary
 - Discussions have been ongoing
-- 
+- We're making good progress towards releasing a full specification of our requirements in a metro context
+- PDFGetX3 looks robust enough to cope with data with gaps
