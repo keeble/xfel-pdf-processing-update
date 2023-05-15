@@ -107,11 +107,14 @@ def average_AB(AB: 'combine_AB'):
 The exact detector geometry is yet to be finalised, but processing should be prepared for incomplete data
 
 ---
-<style>
-img[alt~="center"] {
-  display: block;
-  margin: 0 auto;
-}
-</style>
-Some simple linear fitting gives the best match to the original data
-![center w:500](../assets/fitted.png)
+- Some simple linear fitting gives the best match to the original data
+![bg right w:700](../assets/fitted.png)
+
+---
+- Can also attempt to optimise gap placement relative to expected sample features
+![bg right w:700](../assets/ft_of_gap.png)
+
+---
+## Summary
+- Discussions have been ongoing
+- 
