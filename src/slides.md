@@ -21,9 +21,16 @@ style: |
     color: var(--text);
   }
 ---
+<style scoped>
+p {
+   font-weight: 200;
+}
+</style>
+
 # EuXFEL Processing Update
 ![bg opacity](../assets/gradient.jpeg)
 Dean Keeble
+*16th May 2023*
 
 ---
 ## Processing Meeting 12th April 2023
@@ -95,8 +102,9 @@ def average_AB(AB: 'combine_AB'):
 
 ---
 ## PDFGetX3 and detector gaps
+![width:400](../assets/pdfgetx3.png) ![width:400](../assets/pdfgetx3_zoom.png) 
+
 The exact detector geometry is yet to be finalised, but processing should be prepared for incomplete data
-![width:500](../assets/pdfgetx3.png) ![width:500](../assets/pdfgetx3_zoom.png) 
 
 ---
 <style>
@@ -105,4 +113,5 @@ img[alt~="center"] {
   margin: 0 auto;
 }
 </style>
-![center w:800](../assets/fitted.png)
+Some simple linear fitting gives the best match to the original data
+![center w:500](../assets/fitted.png)
