@@ -83,11 +83,15 @@ def combine_AB(data_A: 'process_A', data_B: 'process_B'):
 def average_AB(AB: 'combine_AB'):
     return AB
 ```
+
 ---
 ![bg opacity](../assets/gradient.jpeg)
 - These context files present an ideal language in which to discuss our processing needs in pure python
 - Work is currently underway to describe our processing specifications (in some cases just using pseudo-code) in this format
 - Aim to reuse code blocks for processing of accumulated data and reprocessing
+
+---
+![](../assets/beauty-shot.png)
 
 ---
 ## PDFGetX3 and detector gaps
